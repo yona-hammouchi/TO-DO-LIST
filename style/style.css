@@ -20,3 +20,30 @@
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
+
+.todo_app h1 {
+    color: #132eb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    background-color: rgb(218, 216, 216);
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
