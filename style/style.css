@@ -24,7 +24,6 @@
 .todo_app h1 {
     color: #132eb3;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -33,10 +32,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #deeef0;
     border-radius: 30px;
-    padding-left: 20px;
-    padding-bottom: 25px;
-    background-color: rgb(218, 216, 216);
+    padding-left: 10px;
+    padding-bottom: 20px;
+
 }
 
 input {
@@ -46,4 +46,34 @@ input {
     background-color: transparent;
     padding: 10px;
     font-weight: 14px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: url(../assets/cercle.png);
+    background-size: cover;
+    background-position: center;
 }
